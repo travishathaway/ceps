@@ -28,7 +28,7 @@ alternatives that were considered along the way.
 While conda is and remains a language agnostic packaging ecosystem, the authors of this CEP cannot deny
 importance of Python in this ecosystem.  Users have long wanted a way to seamlessly install packages only
 available as Python wheels into their conda compatible environments. Rather force users to deal only with
-the "conda" package format, this CEP propose a way for us to meet them halfway by directly integrate 
+the "conda" package format, this CEP propose a way for us to meet them halfway by directly integrate
 "wheel" support into conda compatible tooling.
 
 ## Specification
@@ -143,7 +143,6 @@ All CEPs are explicitly [CC0 1.0 Universal](https://creativecommons.org/publicdo
 
 <!-- links -->
 [RFC2119]: https://datatracker.ietf.org/doc/html/rfc2119
-[conda-schemas]: https://schemas.conda.org
 [repodata-schema]: https://schemas.conda.org/repodata-1.schema.json
 [repodata-record-schema]: https://schemas.conda.org/repodata-record-1.schema.json
 [conda-pypi]: https://github.com/conda-incubator/conda-pypi
